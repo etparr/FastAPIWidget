@@ -10,7 +10,6 @@ PROJECT_ID = "4950f334-daf9-487b-8328-b475644f0117"
 UPSTREAM   = f"https://api.langflow.astra.datastax.com/lf/{PROJECT_ID}"
 API_TOKEN  = os.getenv("ASTRA_API_TOKEN")
 
-# Hop‑by‑hop headers (HTTP/1.1 §13.5.1) we never forward
 HOP   = {b"connection", b"keep-alive", b"proxy-authenticate", b"proxy-authorization", b"te", b"trailers", b"transfer-encoding", b"upgrade"}
 
 # Extra headers we strip so httpx can generate correct ones
