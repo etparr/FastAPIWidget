@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Langflow — FastAPI demo</title>
-  <script src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@v1.0.7/dist/build/static/js/bundle.min.js"></script>
+  <script 
+const config = {
+      projectId: "{{ PROJECT_ID }}",
+      flowId: "{{ FLOW_ID }}",
+      windowTitle: "{{ WINDOW_TITLE }}"
+    };
+src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@v1.0.7/dist/build/static/js/bundle.min.js"></script>
 </head>
 <body>
   <langflow-chat
