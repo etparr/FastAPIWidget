@@ -41,7 +41,11 @@ source .venv/bin/activate && uvicorn main:app --reload
 git clone https://github.com/etparr/FastAPIWidget.git
 cd FastAPIWidget
 
-# 2. Export the appropriate configuration variables (listed below)
+# 2. Install Depdendencies
+pip install -r requirement.txt
+
+# 2. Export the appropriate configuration variables (listed below under configuration)
+export variable="value"
 
 # 3. Activate Env and Start:
 source .venv/bin/activate
