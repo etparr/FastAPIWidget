@@ -88,7 +88,7 @@ echo "Writing .env with ASTRA_API_TOKEN..."
 echo "ASTRA_API_TOKEN=$ASTRA_API_TOKEN" > .env
 
 # 8) Launch server
-echo "\nStarting Langflow demo server..."
+echo "\nStarting FastAPIWidget server..."
 uvicorn main:app --reload &
 
 # 9) Completion message
