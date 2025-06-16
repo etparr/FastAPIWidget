@@ -15,8 +15,8 @@
 1. **Install Git** (only if you don’t already have it) → <https://git-scm.com/downloads>
 2. **Download the project**
    ```bash
-   git clone https://github.com/your-org/langflow-demo.git
-   cd langflow-demo
+   git clone https://github.com/etparr/FastAPIWidget.git
+   cd FastAPIWidget
    ```
 3. **Run the installer**  
    > Windows users: run in *Git Bash* or *WSL*
@@ -38,12 +38,12 @@ source .venv/bin/activate && uvicorn main:app --reload
 ## 4 • Developer Setup (Technical)
 ```bash
 # 1. Clone && enter project
-git clone https://github.com/your-org/langflow-demo.git
-cd langflow-demo
+git clone https://github.com/etparr/FastAPIWidget.git
+cd FastAPIWidget
 
 # 2. Export the appropriate configuration variables (listed below)
 
-# 3. Hack away!  Typical dev loop:
+# 3. Activate Env and Start:
 source .venv/bin/activate
 uvicorn main:app --reload  # hot-reloads on code changes
 ```
@@ -67,7 +67,7 @@ Update them manually **or** rerun `./setup.sh` anytime.
 
 ## 8 • Project Structure
 ```text
-langflow-demo/
+FastAPIWidget/
 ├── main.py                # FastAPI entry-point
 ├── static/
 │   └── index.html         # Embeds Langflow chat
