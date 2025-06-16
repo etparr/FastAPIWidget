@@ -58,9 +58,9 @@ uvicorn main:app --reload  # hot-reloads on code changes
 ## 6 • Configuration
 | Variable | Where Set | Description |
 |----------|-----------|-------------|
-| `PROJECT_ID` | `main.py`  | Your Langflow project GUID |
-| `FLOW_ID`    | `static/index.html`| The specific flow you want to run |
-| `WINDOW_TITLE` | `static/index.html` | Title shown in the chat header |
+| `PROJECT_ID` | `.env`  | Your Langflow project GUID |
+| `FLOW_ID`    | `.env`| The specific flow you want to run |
+| `WINDOW_TITLE` | `.env` | Title shown in the chat header |
 | `ASTRA_API_TOKEN` | `.env` | Token for authenticated requests |
 
 Update them manually **or** rerun `./setup.sh` anytime.
